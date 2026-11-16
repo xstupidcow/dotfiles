@@ -36,6 +36,8 @@ sudo systemctl restart tailscaled
 echo "Configuring packages"
 
 # Clean
+rm -rf ~/.config/alacritty
+rm -rf ~/.config/noctalia
 rm -rf ~/.config/fish
 rm -rf ~/.config/nvim
 rm -rf ~/.config/zellij
@@ -44,6 +46,8 @@ rm -rf ~/dev.sh
 rm -rf ~/config.sh
 
 # Link
+ln -s ~/dotfiles/.config/alacritty ~/.config/alacritty
+ln -s ~/dotfiles/.config/noctalia ~/.config/noctalia
 ln -s ~/dotfiles/.config/fish ~/.config/fish
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/dotfiles/.config/zellij ~/.config/zellij
