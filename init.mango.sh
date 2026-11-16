@@ -7,7 +7,7 @@ if ! command -v shelly &>/dev/null; then
   exit
 fi
 
-shelly -Is docker docker-compose neovim lazygit zellij wl-clipboard helium-browser-bin tree-sitter-cli github-cli telegram-desktop tailscale fcitx5 fcitx5-unikey fcitx5-gtk fcitx5-qt fcitx5-configtool
+shelly -Is docker docker-compose neovim lazygit zellij wl-clipboard helium-browser-bin tree-sitter-cli github-cli telegram-desktop tailscale fcitx5 fcitx5-unikey fcitx5-gtk fcitx5-qt fcitx5-configtool ttf-jetbrains-mono-nerd
 
 echo "Installing Fast Node Manager"
 
