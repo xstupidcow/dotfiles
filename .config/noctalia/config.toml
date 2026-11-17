@@ -1,19 +1,26 @@
 [bar.default]
-background_opacity = 0.89999997988343239
-start = ["launcher", "Spacer_2", "workspaces"]
-center = ["tray", "Spacer_2", "media"]
+background_opacity = 0.96
+start = [
+    "launcher",
+    "Spacer",
+    "workspaces",
+]
+center = [
+    "tray",
+]
 end = [
     "network",
     "bluetooth",
-    "notifications",
-    "Spacer_2",
+    "notifications", 
+    "Spacer",
     "brightness",
     "volume",
+    "sysmon",
     "battery",
-    "Spacer_2",
+    "Spacer",
     "date",
     "clock",
-    "Spacer_2",
+    "Spacer",
     "session",
 ]
 margin_edge = 0
@@ -100,7 +107,7 @@ widget_order = [ "lockscreen-login-box@DP-2", "lockscreen-login-box@DP-1" ]
 restore_portal = false
 
 [plugins]
-enabled = [ "noctalia/screen_recorder", "dotnetrob/cat", "noctalia/wallhaven", "ezequiel/mango_layouts", "kenn/keybind-cheatsheet" ]
+enabled = [ "dotnetrob/cat", "ezequiel/mango_layouts", "kenn/keybind-cheatsheet" ]
 
     [[plugins.source]]
     kind = "git"
@@ -132,7 +139,7 @@ type = "spacer"
 type = "spacer"
 
 [widget.cat]
-cat_size = 34
+cat_size = 32
 type = "dotnetrob/cat:cat"
 
 [widget.date]
