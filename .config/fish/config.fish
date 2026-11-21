@@ -7,4 +7,6 @@ end
 
 # opencode
 fish_add_path /home/tn/.opencode/bin
-alias code='opencode'
+
+# starship
+starship init fish | source
